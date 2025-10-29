@@ -1,0 +1,23 @@
+name: safecopy_mobile
+description: Minimal SafeCopy mobile prototype
+publish_to: "none"
+version: 0.1.0
+
+environment:
+  sdk: ">=2.18.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^0.13.6
+  uuid: ^4.5.1
+  cryptography: ^2.1.4
+  file_picker: ^10.3.3
+  shared_preferences: ^2.1.1
+
+flutter:
+  uses-material-design: true
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
